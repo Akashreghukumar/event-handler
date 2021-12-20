@@ -1,0 +1,135 @@
+.mainbox{
+
+    margin: 1;
+    width: 83em;
+    height: 40em;
+    border: 2px solid #000;
+    
+    
+}
+
+.parent_div{
+    display: grid;
+    grid-auto-flow:column ;
+    gap: 2em;
+
+}
+
+.innerbox{
+    margin: 1em;
+    width: 12em;
+    height: 10em;
+    border-color: grey;
+    border:2px solid #000;
+    display: flex;
+
+    /* display: grid;
+    grid-auto-flow: column;
+    gap: 0em;
+     */
+    
+    
+}
+
+
+
+
+#imgbox{
+    height: 7em;
+    width: 5em;
+    margin-top: 20px;
+    margin-left: 4px;
+    /* background-color: #000; */
+    /* margin: 1em; */
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgcir{
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    
+    background-color: orange;
+    /* position: absolute;
+    align-items: center; */
+    
+}
+
+.innerboxtxt{
+    padding-left: 5em;
+    
+}
+
+body{
+    margin: 1em;
+    padding: 1em;
+    height: 100vh;
+    min-width: 100%;
+    overflow-x:hidden;
+    overflow-y:hidden ;
+    
+}
+
+.searchbox{
+    padding: 3em;
+    
+    border-color: gray;
+    display: grid;
+    align-items: center;
+    place-items: center;
+   /* background-color: aqua;*/
+    
+}
+
+
+.left{
+
+    height: 10em;
+    width: 50%;
+    /* background-color: green; */
+    position: relative;
+}
+
+
+
+.right{
+
+     height: 10em;
+    width: 50%;
+    /* background-color: orange; */
+}
+
+
+.centervent{
+    position: absolute;
+    top: 0;
+    right: -25px;
+    
+
+}
+
+
+
+
+/* .splitinner{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
